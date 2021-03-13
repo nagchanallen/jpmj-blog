@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![Branches](https://badgen.net/github/branches/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog)
+[![Commits](https://badgen.net/github/commits/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog)
+[![LastCommit](https://badgen.net/github/last-commit/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog/commits/master)
 
 ## Getting Started
 
