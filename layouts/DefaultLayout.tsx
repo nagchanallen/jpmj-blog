@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import '../styles/layout.module.css';
 
 interface Props {
   children: React.ReactElement;
