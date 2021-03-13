@@ -1,7 +1,18 @@
-import '../styles/globals.css'
+import React from 'react';
+import type { AppProps } from 'next/app';
+import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }: AppProps): React.ReactElement {
+  const Layout =
+    ((Component as unknown) as {
+      Layout: React.ComponentType;
+    }).Layout ?? React.Fragment;
+
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
 
-export default MyApp
+export default App;
