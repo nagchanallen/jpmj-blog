@@ -1,6 +1,8 @@
 [![Branches](https://badgen.net/github/branches/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog)
 [![Commits](https://badgen.net/github/commits/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog)
 [![LastCommit](https://badgen.net/github/last-commit/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog/commits/master)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/nagchanallen/jpmj-blog.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/nagchanallen/jpmj-blog/alerts/)
+<a href="https://lgtm.com/projects/g/nagchanallen/jpmj-blog/context:javascript"><img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/nagchanallen/jpmj-blog.svg?logo=lgtm&logoWidth=18"/></a>
 
 # jpmj-blog
 
