@@ -2,15 +2,16 @@
 [![Commits](https://badgen.net/github/commits/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog)
 [![LastCommit](https://badgen.net/github/last-commit/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog/commits/master)
 
-## Getting Started
+# jpmj-blog
 
-First, run the development server:
+## 必要条件　Prerequisite　
+- [NodeJS](https://nodejs.org/en/) (v14+) has been installed.
+- [Yarn](https://yarnpkg.com/) has been installed.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## セットアップ手順　Setup Procedures
+1. clone the whole repo to your local directory.
+2. Run `yarn install`
+3. Run `yarn dev`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
