@@ -1,3 +1,4 @@
+[![License](https://badgen.net/github/license/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog/blob/master/LICENSE)
 [![Branches](https://badgen.net/github/branches/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog)
 [![Commits](https://badgen.net/github/commits/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog)
 [![LastCommit](https://badgen.net/github/last-commit/nagchanallen/jpmj-blog)](https://github.com/nagchanallen/jpmj-blog/commits/master)
