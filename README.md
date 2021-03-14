@@ -11,6 +11,7 @@
 ## 必要条件　Prerequisite　
 - [NodeJS](https://nodejs.org/en/) (v14+) has been installed.
 - [Yarn](https://yarnpkg.com/) has been installed.
+- TypeScript has been installed.
 
 ## セットアップ手順　Setup Procedures
 1. clone the whole repo to your local directory.
