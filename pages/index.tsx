@@ -3,19 +3,19 @@ import Head from 'next/head';
 
 import DefaultLayout from '../layouts/DefaultLayout';
 
-const Index = () => {
+const HomePage = () => {
   return (
-    <React.Fragment>
+    <div>
       <Head>
         <title>
           Index Page - Allen's Mahjong Blog - 某天鳳玩家的日麻部落格
         </title>
       </Head>
-      <div>Index Page</div>
-    </React.Fragment>
+      <div>Index Page Content</div>
+    </div>
   );
 };
 
-Index.Layout = DefaultLayout;
+HomePage.Layout = DefaultLayout;
 
-export default Index;
+export default HomePage;

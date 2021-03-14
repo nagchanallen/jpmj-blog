@@ -1,5 +1,7 @@
 import React from 'react';
-import Link from 'next/link';
+import BlogHeader from '../components/BlogHeader';
+import SideBar from '../components/SideBar';
+import BlogFooter from '../components/BlogFooter';
 import 'bulma/css/bulma.css';
 import '../styles/layout.module.css';
 
@@ -12,9 +14,10 @@ const DefaultLayout: React.FC<Props> = ({
 }: Props): React.ReactElement => {
   return (
     <>
-      <div>Default Layout</div>
-      <Link href="/">Go to Index Page</Link>
+      <BlogHeader />
+      <SideBar />
       <div>{children}</div>
+      <BlogFooter />
     </>
   );
 };
