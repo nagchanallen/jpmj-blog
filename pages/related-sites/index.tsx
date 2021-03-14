@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import DefaultLayout from '../../layouts/DefaultLayout';
 
-export default () => {
+const Index = () => {
   return (
     <>
       <h1>In Construction!!</h1>
@@ -9,3 +10,7 @@ export default () => {
     </>
   );
 };
+
+Index.Layout = DefaultLayout;
+
+export default Index;
