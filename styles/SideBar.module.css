@@ -1,0 +1,38 @@
+.sideBarContent {
+  background-color: whitesmoke;
+  width: 150px;
+  position: absolute;
+  top: 52px;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+
+  -moz-transition: left 0.5s ease;
+  transition: left 0.5s ease;
+}
+
+.sideBarContent h1 {
+  color: red;
+}
+
+.sideBar input[type="checkbox"] {
+  display: none;
+}
+
+.sideBar input:checked ~ label {
+  left: 0;
+}
+
+.sideBar input:checked ~ .sideBarContent {
+  left: -150px;
+}
+
+.sideBar label {
+  z-index: 2;
+  position: absolute;
+  top: 52px;
+  left: 150px;
+
+  -moz-transition: left 0.5s ease;
+  transition: left 0.5s ease;
+}
